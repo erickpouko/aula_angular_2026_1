@@ -1,3 +1,4 @@
+<br><h1>pagina 1</h1>
 <section class="conteiner">
     <article>
 <h2>Lista de equipamentos de proteção individual</h2>
@@ -14,4 +15,13 @@
     </li>
 </ul>
 <button class="btn btn-primary">Comprar</button>
+<br>
+<a routerLink="/epi/detalhe" class="btn btn-sm btn-primary ms-2">
+    Ver detalhes
+  </a>
+  <a [routerLink]="['/epi/detalhe']" [queryParams]="{ id: 1 }" class="btn btn-sm btn-primary ms-2 mt-2">
+
+    Enviar ID
+  
+   </a>
 </section>

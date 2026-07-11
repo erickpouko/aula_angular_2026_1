@@ -1,3 +1,18 @@
+<nav class="container mt-3">
+
+  <a routerLink="/epi" class="btn btn-outline-primary me-2">
+
+    Lista de EPIs
+
+  </a>
+
+  <a routerLink="/epi/detalhe" class="btn btn-outline-secondary">
+
+    Detalhes do EPI
+    </a>
+  </nav>
+
+<hr>
 <section class="container mt-4">
   <article class="mb-4">
     <h1>{{titulo}}</h1>
@@ -18,9 +33,11 @@
       </li>
     </ul>
   </div>
-  
 </section>
-<app-epi-list></app-epi-list>
+<router-outlet></router-outlet>
+
+<!-- <app-epi-list></app-epi-list>
+<app-epi-detalhe></app-epi-detalhe> -->
 
 <!-- <section class="conteiner">
   <article class="mb-4">
