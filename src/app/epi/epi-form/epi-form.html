@@ -1,0 +1,10 @@
+<form [formGroup]="formulario" (ngSubmit)="salvar()">
+    <label for="nome">Nome do EPI</label>
+    <input id="nome" type="text" formControlName="nome">
+    <label for="categoria">Categoria</label>
+    <input id="categoria" type="text" formControlName="categoria">
+    <label for="ca">CA</label>
+    <input id="ca" type="text" formControlName="ca">
+    <button type="submit">Cadastrar</button>
+</form>
+

@@ -15,4 +15,4 @@ export class App {
   subtitulo = "Gestão des segurança do trabalho";
   descricao = "Aplicação para controle, monitoramento e conformidade dos equipamentos de proteção individual";
   // professor = "Elias Santos";
-}
+} 
